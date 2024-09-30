@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* You can change this font as per your design preference */
+}
+
+body {
+  background-color: #f4f4f4;
+  /* Clean light background */
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #888;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.about-text .resume-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #f4b400;
+  color: white;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.about-text .resume-btn:hover {
+  background-color: #e3a600;
+}
+
+.about-image {
+  width: 35%;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.projects-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #1f1f1f;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #f4b400;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project-card a:hover {
+  color: #db9a00;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #1f1f1f;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.contact-section a {
+  display: block;
+  text-decoration: none;
+  color: #f4b400;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+footer img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
