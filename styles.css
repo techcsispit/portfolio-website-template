@@ -195,3 +195,7 @@ footer p {
   margin-top: 10px;
   font-size: 0.9rem;
 }
+
+footer i{
+  padding-right: 12px;
+}
