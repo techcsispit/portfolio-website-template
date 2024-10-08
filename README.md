@@ -24,8 +24,8 @@ To get started with the project, follow these steps:
 1. **Clone the Repository**: 
    ```bash
    git clone https://github.com/techcsispit/portfolio-website-template.git
-2. **Open the Project**: Navigate to the project folder and open `index.html` in your web browser.
-
+2. **Open the Project**: Navigate to the project folder and open `about.html`
+or any one of the html files.
 ## 🛠️ Contributing
 
 Contributions are welcome! Follow these steps:
