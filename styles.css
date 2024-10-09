@@ -19,11 +19,13 @@ header {
   background-color: #1f1f1f;
   padding: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 nav {
@@ -39,6 +41,9 @@ nav a {
 }
 
 nav a:hover {
+  color: #fff;
+}
+nav .highlight {
   color: #fff;
 }
 
@@ -184,6 +189,11 @@ footer {
   text-align: center;
   background-color: #1f1f1f;
   color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
 }
 
 footer img {
@@ -196,6 +206,16 @@ footer p {
   font-size: 0.9rem;
 }
 
+
 footer i{
   padding-right: 12px;
 }
+/* Helps footer stay at the bottom */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 100px;
+}
+
