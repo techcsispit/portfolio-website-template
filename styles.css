@@ -206,6 +206,10 @@ footer p {
   font-size: 0.9rem;
 }
 
+
+footer i{
+  padding-right: 12px;
+}
 /* Helps footer stay at the bottom */
 html {
   position: relative;
@@ -214,3 +218,4 @@ html {
 body {
   margin: 0 0 100px;
 }
+
