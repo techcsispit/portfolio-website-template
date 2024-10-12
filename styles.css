@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #5153b5c5;
   /* Clean light background */
   color: #333;
   font-size: 16px;
@@ -16,35 +16,48 @@ body {
 
 /* Header Styling */
 header {
-  background-color: #1f1f1f;
-  padding: 20px;
+  background-color: #101022c5;
+  padding: 10px;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  box-shadow: 4px 4px 25px 5px rgba(42, 40, 81, 0.752);
 }
 
 header h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.sec-box {
+  display: flex;
 }
 
 nav {
   margin-top: 15px;
+  padding-bottom: 5px;
 }
 
 nav a {
-  color: #888;
+  color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 10px 15px;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #fff;
+  color: rgb(230, 225, 107);
 }
-nav .highlight {
-  color: #fff;
+
+.highlight {
+  color: rgb(230, 225, 107);
+  border-bottom: 2px solid rgb(209, 189, 100);
+  padding-bottom: 8px;
+}
+
+.head h1 {
+  padding-left: 70px;
 }
 
 /* About Section */
@@ -103,6 +116,14 @@ nav .highlight {
 }
 
 /* Projects Section */
+
+.cards-holder {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  /* align-items: center; */
+}
+
 .projects-section {
   padding: 50px;
   max-width: 1200px;
@@ -117,11 +138,12 @@ nav .highlight {
 }
 
 .project-card {
-  background-color: white;
-  padding: 20px;
+  background-color: rgb(209, 205, 236);
+  width: 20vw;
+  padding: 30px;
   margin: 20px 0;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: -8px 8px 3px rgba(0, 0, 0, 0.255);
   transition: transform 0.3s;
 }
 
@@ -130,7 +152,8 @@ nav .highlight {
 }
 
 .project-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
   color: #333;
   margin-bottom: 15px;
 }
@@ -143,7 +166,7 @@ nav .highlight {
 
 .project-card a {
   text-decoration: none;
-  color: #f4b400;
+  color: #ad8515;
   font-weight: bold;
   transition: color 0.3s;
 }
